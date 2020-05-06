@@ -1,0 +1,191 @@
+body{
+    /* background: rgb(173, 173, 189); */
+    background: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#myBtn {
+    /*display: none; /*Hidden by default*/
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #316DC3; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+
+
+h3,h2{
+    text-align: center;
+}
+.my-container{
+    background: red;
+    
+}
+.my-list{
+    display: inline-block;
+    float: none;
+}
+
+.my-li{
+    display: inline-block;
+    float: none;
+}
+.my-ul{
+    display: inline-block;
+    float: none;
+}
+
+.my-col{
+    align-items: center;
+}
+
+
+/* .container{
+    float: left;
+    display: inline;
+} */
+.social{
+        padding: 0;
+        /* float: left; */
+        position: relative;
+        display: inline;
+}
+
+.dropdown{
+    margin: 0 auto;
+    /* position: fixed; */
+    
+    /* bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21; */
+    /* position: fixed; */
+}
+.button{
+    padding: 50%;
+}
+
+
+nav{
+    height: 60px;
+background: #f4f4f5;
+box-pack: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+    padding: 5px 0 0 80px;
+    width: 250px;
+    height: auto;
+}
+
+ nav ul {
+    padding: 0%;
+    margin: 0%;
+    float: right;
+    margin-right: 30px;
+}
+/*
+nav ul li{
+    background: #f7f7f8;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a{
+    display: block;
+    padding: 0  15px;
+    color: rgb(14, 3, 3);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background: #9e96bd;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+} */
+
+.main{
+    padding: 0%;
+    /* height: auto; */
+    background: rgb(20, 20, 165);
+    color: white;
+    display: inline;
+    float: none;
+}
+.socoalicon, li{
+    display: inline-block;
+    float: none;
+    padding: 10;
+    /* background: blue; */
+}
+.list-inline-Button
+{
+    display: inline-block;
+    float: center;
+}
+.styled-icons{
+    display: inline-block;
+    float: none;
+    text-align-last: center;
+    
+    
+}
+/* .row2{
+    background: rgb(20, 20, 165);
+    color: white;
+    display: inline;
+    float: right;
+} */
+
+
+
+/* .social{
+    width: 100%;
+    border: 0px ;
+    /* box-shadow: 5px 5px 3px grey; */
+    /* border-radius: 50px; */
+/*}
+
